@@ -5,3 +5,4 @@ y=int(y)
 s=x+y
 m=x*y
 print('\n'sum:{}\n'product:{}.format(s,m))
+print('telos kodika')
