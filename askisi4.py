@@ -1,0 +1,12 @@
+epafes= {'Betty':222333,'Foteini':111333, 'Evi':333222, 'Kanelina':555444}
+print('oi epafes mou einai \n', epafes)
+print('eisagogi neas epafis')
+onoma= input('neo onoma:')
+onoma= str(onoma)
+tel= input('neo tel:')
+tel= int(tel)
+epafes.update({(onoma):tel})
+print('oi epafes mou einai \n', epafes)
+lista= list(epafes.items())
+lista.sort()
+print('lista me alfavitiki seira: \n',lista) 
