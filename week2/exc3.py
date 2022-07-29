@@ -1,9 +1,9 @@
 x= float(input('original income:'))
 y= float(input('% rate'))  
 c= float(x+(x*y/100))
+i=0
 while c<1000000 :
+    i=i+1
     c= x+c
-    if c>1000000:
-        break
-else: 
-    print(c)
+    
+print('years:',i)
